@@ -22,7 +22,7 @@ public class InsertTitle {
 		return conn;
 	}
 
-	public InsertTitle(char au_id, char pub_id, char title_id, String au_fname, String au_lname, String title_name,
+	public void it (char au_id, char pub_id, char title_id, String au_fname, String au_lname, String title_name,
 			String pub_name, String city, String type, int pages, int day, int month, int year, int au_order) throws SQLException {
 		this.pub_id = pub_id;
 		this.title_id = title_id;

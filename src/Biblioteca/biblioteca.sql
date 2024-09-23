@@ -11,6 +11,7 @@ CREATE TABLE authors
 
 INSERT INTO authors (au_id, au_fname, au_lname) VALUES ('A01', 'Brian', 'Kernighan');
 INSERT INTO authors (au_id, au_fname, au_lname) VALUES ('A02', 'Dennis', 'Ritchie');
+INSERT INTO authors (au_fname, au_lname) VALUES (
 
 DROP TABLE publishers;
 CREATE TABLE publishers

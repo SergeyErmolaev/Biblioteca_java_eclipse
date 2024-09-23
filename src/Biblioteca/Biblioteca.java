@@ -53,8 +53,10 @@ public class Biblioteca {
 //        biblioteca.insert();
 //        biblioteca.select();
 //        biblioteca.close();
-		Queries q = new Queries();
-		q.q1();
+//		  returns the contents of the table
+//		Queries q = new Queries();
+//		q.q1();
+		InsertPublishers ip = new InsertPublishers("P03", "McGraw-Hill", "New York");
 	}
 
 }
