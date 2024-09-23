@@ -54,9 +54,15 @@ public class Biblioteca {
 //        biblioteca.select();
 //        biblioteca.close();
 //		  returns the contents of the table
-//		Queries q = new Queries();
+//		Queries q = new Queries(); // it works
 //		q.q1();
-		InsertPublishers ip = new InsertPublishers("P03", "McGraw-Hill", "New York");
+		
+//		InsertPublishers ip = new InsertPublishers("P03", "McGraw-Hill", "New York"); // it works
+//		InsertAuthor ia = new InsertAuthor("A03", "Brian", "W. Kernighan"); // it works
+//		InsertUser iu = new InsertUser("Daenerys", "Targaryen", "librarian"); // it works
+//		InsertTitle it = new InsertTitle("T03", "The Elements of Programming Style", "Computer", "P03", 92, "1978", "04", "01", 2); // it works
+//		InsertTitleAuthors ita = new InsertTitleAuthors("T03", "A03", 1); // it works
+		InsertAuOders iao = new InsertAuOders("T03", "A03", "A02", null); // it works
 	}
 
 }

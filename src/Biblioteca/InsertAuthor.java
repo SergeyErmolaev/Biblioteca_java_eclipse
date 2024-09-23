@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class InsertAuthor {
-	private char au_id;
+	private String au_id;
 	private String au_fname;
 	private String au_lname;
 	
@@ -15,7 +15,7 @@ public class InsertAuthor {
 		return conn;
 	}
 	
-	public InsertAuthor(char au_id, String au_fname, String au_lname) throws SQLException {
+	public InsertAuthor(String au_id, String au_fname, String au_lname) throws SQLException {
 		this.au_id = au_id;
 		this.au_fname = au_fname;
 		this.au_lname = au_lname;

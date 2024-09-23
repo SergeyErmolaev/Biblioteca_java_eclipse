@@ -5,8 +5,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class InsertTitleAuthors {
-	private char title_id;
-	private char au_id;
+	private String title_id;
+	private String au_id;
 	private int au_order;
 	
 	private Connection conn() throws SQLException
@@ -15,7 +15,7 @@ public class InsertTitleAuthors {
 		return conn;
 	}
 
-	public InsertTitleAuthors(char title_id, char au_id, int au_order) throws SQLException {
+	public InsertTitleAuthors(String title_id, String au_id, int au_order) throws SQLException {
 		this.title_id = title_id;
 		this.au_id = au_id;
 		this.au_order = au_order;
