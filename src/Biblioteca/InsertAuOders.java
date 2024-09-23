@@ -15,6 +15,25 @@ public class InsertAuOders {
 		Connection conn = DriverManager.getConnection("jdbc:sqlite:/home/sergey/eclipse-workspace-enterprise/Biblioteca/src/Biblioteca/biblioteca.db");
 		return conn;
 	}
+	
+	public InsertAuOders(String title_id, String author1) throws SQLException {
+		this.title_id = title_id;
+		this.author1 = author1;
+
+		Connection conn = this.conn();
+		conn.createStatement().execute("INSERT INTO au_orders (title_id, author1)" + " VALUES ('" + this.title_id
+				+ "', '" + this.author1 + "')");
+	}
+	
+	public InsertAuOders(String title_id, String author1, String author2) throws SQLException {
+        this.title_id = title_id;
+        this.author1 = author1;
+        this.author2 = author2;
+        
+        Connection conn = this.conn();
+        conn.createStatement().execute("INSERT INTO au_orders (title_id, author1, author2)" + " VALUES ('"
+                + this.title_id + "', '" + this.author1 + "', '" + this.author2 + "')");
+        }
 
 	public InsertAuOders(String title_id, String author1, String author2, String author3) throws SQLException {
 		this.title_id = title_id;

@@ -62,7 +62,7 @@ public class Biblioteca {
 //		InsertUser iu = new InsertUser("Daenerys", "Targaryen", "librarian"); // it works
 //		InsertTitle it = new InsertTitle("T03", "The Elements of Programming Style", "Computer", "P03", 92, "1978", "04", "01", 2); // it works
 //		InsertTitleAuthors ita = new InsertTitleAuthors("T03", "A03", 1); // it works
-		InsertAuOders iao = new InsertAuOders("T03", "A03", "A02", null); // it works
+		InsertAuOders iao = new InsertAuOders("T03", "A03", "A02"); // it works
 	}
 
 }
