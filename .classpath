@@ -7,5 +7,9 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/home/sergey/eclipse-workspace-enterprise/Biblioteca/src/Biblioteca/sqlite-jdbc-7.0.161.jar"/>
+	<classpathentry kind="lib" path="/home/sergey/eclipse-workspace-enterprise/Biblioteca/src/Biblioteca/slf4j-api-2.0.11-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/sergey/eclipse-workspace-enterprise/Biblioteca/src/Biblioteca/slf4j-api-2.0.11-sources.jar"/>
+	<classpathentry kind="lib" path="/home/sergey/eclipse-workspace-enterprise/Biblioteca/src/Biblioteca/slf4j-api-2.0.11.jar"/>
+	<classpathentry kind="lib" path="/home/sergey/eclipse-workspace-enterprise/Biblioteca/src/Biblioteca/slf4j-api-2.0.11-tests.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
